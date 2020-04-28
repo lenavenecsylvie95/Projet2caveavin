@@ -1,0 +1,427 @@
+/* ///////////// Background //////////////*/
+body{
+  color: white;
+  background-color:black;
+}
+
+/*//////////// Header Logo + barre de navigation///////// */
+
+.navbar{
+  background-color: grey;
+}
+
+.navbar-brand{
+  font-family: "DIN";
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  font-family: "DIN";
+  src: url("../css/dinbold.ttf");
+  color: white;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav li {
+  padding: 0.5rem;
+  align-content: right;
+  text-align: center;
+  color: white;
+}
+
+  /* -----  ---- */
+
+.backgroundimg{
+  width: 100%;
+  height: auto;
+}
+
+/* ///////////////// Page d'acceuil /////////////////////*/
+
+#grappe {
+  display: flex;
+  flex-direction: row;
+  border-bottom: white solid 2px;
+}
+.grappe{
+  width: 18%;
+  height: 18%;
+  padding: 2%;
+  padding-left: 3%;
+  margin-top: 5%;
+}
+.presentation1{
+  margin-top: 5rem;
+  padding-right: 3rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.presentation2{
+  margin-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+.notrehistoire{
+color: white;
+background: none;
+text-align: center;
+font-size : 2rem;
+margin-top: 3%;
+font-family: "DIOGENES"
+}
+
+/* CHAMPAGNE */
+
+.containeryellow{
+  padding: 15px;
+  margin: 70px;
+  text-align: center;
+  background-color: #E4DF4E;
+  text-align: center;
+  font-size: 19px;
+  color: black;
+  border-radius: 20px;
+}
+
+.bouteille{
+  width: 200px;
+  height: 200px;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.blockLine {
+  display: flex;
+  justify-content: start;
+  border-bottom: white solid 2px;
+}
+
+.blockline, .dioDessin{
+  display: flex;
+  align-content: center;
+}
+
+.dessin{
+  padding: 100px;
+}
+
+.dioDessin{
+width: 100%;
+margin-top: 20%;
+}
+
+.decouvriryellow{
+  border-radius: 10px;
+  color: #E4DF4E;
+  border: solid white;
+  background: white;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* VIN ROUGE */
+
+.containerred{
+  padding: 15px;
+  margin: 70px;
+  text-align: center;
+  background-color: #9B1825;
+  text-align: center;
+  font-size: 19px;
+  color: black;
+  border-radius: 20px;
+}
+
+.bouteille{
+  width: 200px;
+  height: 200px;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.blockLine {
+  display: flex;
+  justify-content: start;
+}
+
+.blockline, .dioDessin{
+  display: flex;
+  align-content: center;
+}
+
+.dessin{
+  padding: 100px;
+}
+
+.dioDessin{
+width: 100%;
+margin-top: 20%;
+}
+
+.decouvrirred{
+  border-radius: 10px;
+  color: #9B1825;
+  border: solid white;
+  background: white;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* VIN BLANC */
+
+.containergreen{
+  padding: 15px;
+  margin: 70px;
+  text-align: center;
+  background-color: #73B458;
+  text-align: center;
+  font-size: 19px;
+  color: black;
+  border-radius: 20px;
+}
+
+.bouteille{
+  width: 200px;
+  height: 200px;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.blockLine {
+  display: flex;
+  justify-content: start;
+}
+
+.blockline, .dioDessin{
+  display: flex;
+  align-content: center;
+}
+
+.dessin{
+  padding: 100px;
+}
+
+.dioDessin{
+width: 100%;
+margin-top: 20%;
+}
+
+.decouvrirgreen{
+  border-radius: 10px;
+  color: #73B458;
+  border: solid white;
+  background: white;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* ///////////////// PAGE CONTACT /////////////////////*/
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 10%;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background: none;
+  padding: 20px;
+  width: 383px;
+  height: auto;
+  margin-top: 5%;
+  margin-block-end: 150px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+#object{
+  width: 100%;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/*/////// FOOTER ////////*/
+
+footer{
+  background: no-repeat url("../img/une-cave-a-vin.jpg");
+  background-size: 100%;
+  background-position: center;
+  margin-top: 10%;
+}
+.contacttitre{
+  color: white;
+  background: black;
+  font-size : 2rem;
+  padding-bottom: : 3%;
+  font-family: "DIOGENES";
+  text-align: center;
+}
+
+/*////////////////// PAGES A NOUS //////////////////*/
+
+.card-title{
+  font-family: "DIOGENES";
+}
+.card-text{
+  font-family: "DIN";
+}
+
+
+/* Page Champagnes */
+
+.pagechampagne{
+  background: url("../img/cave-a-vin-20.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.champagnetitre{
+  color: #E4DF4E;
+  background: none;
+  text-align: center;
+  font-size : 2rem;
+  margin-top: 3%;
+  font-family: "DIOGENES"
+}
+
+.champagnetitre2{
+  color: #E4DF4E;
+  background: none;
+  text-align: center;
+  font-size : 2rem;
+  padding-bottom: 2%;
+  font-family: "DIOGENES"
+}
+
+.slider{
+width: 100%;
+overflow: hidden;
+margin-top: 5%;
+}
+.slides{
+width: calc(400px * 6 );
+animation: glisse 12S infinite;
+}
+.slide{
+float: left;
+}
+
+@keyframes glisse {
+0% {
+transform: translateX(0);
+}
+30% {
+transform: translateX(-200px);
+}
+50% {
+transform: translateX(-400px);
+}
+70% {
+transform: translateX(-800px);
+}
+80% {
+transform: translateX(-1600px);
+}
+100% {
+transform: translateX(-200px);
+}
+}
+/* Page Vins Rouges */
+
+.pagerouge{
+  background: url("../img/cave-a-vin-20.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.rougetitre{
+  color: #9B1825;
+  background: black;
+  text-align: center;
+  font-size : 2rem;
+  margin-top: 3%;
+  font-family: "DIOGENES"
+}
+.rougetitre2{
+  color: #9B1825;
+  background: black;
+  text-align: center;
+  font-size : 2rem;
+  padding-bottom: 2%;
+  font-family: "DIOGENES"
+}
+.Domainetitres{
+  text-align: center;
+  font-family: "DIOGENES";
+  margin-top: 3%;
+  margin-bottom: 2%;
+  font-size: 3rem;
+}
+.Domaines{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  border: white 2px solid;
+}
+.domainetext{
+  font-family: "DIN";
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.soustitre{
+  text-align: center;
+  font-family: "DIOGENES";
+  margin-bottom: 5%;
+  font-size: 4rem;
+}
+/*Page Vins Blancs */
+
+.pageblanc{
+  background: url("../img/cave-a-vin-20.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.blanctitre{
+  color: #73B458;
+  background: none;
+  text-align: center;
+  font-size : 2rem;
+  margin-top: 3%;
+  font-family: "DIOGENES"
+}
+.blanctitre2{
+  color: #73B458;
+  background: none;
+  text-align: center;
+  font-size : 2rem;
+  padding-bottom: 2%;
+  font-family: "DIOGENES"

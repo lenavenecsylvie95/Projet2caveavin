@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px){
+  .backgroundimg{
+    width: 100%;
+    height: auto;
+  }
+  #grappe {
+    display: flex;
+    flex-direction: column;
+    border-bottom: white solid 2px;
+  }
+  .grappe{
+    width: 18%;
+    height: 18%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10%;
+  }
+  .blockLine{
+    display: flex;
+    flex-direction: column;
+  }
+  .champagnetitre .rougetitre .blanctitre{
+    padding-bottom: 0;
+  }
+  .card-img{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .presentation1{
+    font-size: 1.5rem;
+    padding-left: 5%;
+  }
+  .presentation2{
+    font-size: 1.5rem;
+  }
+  .Domainetitres{
+    font-size: 2rem;
+  }
+  .soustitre{
+    font-size: 2rem;
+  }
+  .slider{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+
+
+
+
+
+}

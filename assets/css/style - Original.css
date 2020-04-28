@@ -1,0 +1,211 @@
+/* ///////////// Background //////////////*/
+body{
+
+  color: white;
+  background-color:black;
+
+}
+
+
+
+/*//////////// Header Logo + barre de navigation///////// */
+
+#navbar{
+
+  position: fixed;
+  padding-left: 530px;
+  justify-content: space-around;
+  background-color: grey;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  list-style-type: none;
+  font-family: "DIN";
+  src: url("../css/dinbold.ttf");
+}
+
+nav li a {
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+}
+
+nav li {
+
+  padding: 1rem;
+  border-radius: 3rem ;
+  width: 10rem;
+  align-content: right;
+  text-align: center;
+  font-size: 1rem;
+}
+
+  /* -----  ---- */
+
+  #home{
+    display: flex;
+    margin-top: 7em;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat cover;
+
+  }
+
+  h1{
+    font-family: "DIOGENES";
+    src: url("../css/brightside.ttf");
+    font-size: 9rem;
+    padding-left: 185px;
+    padding-top: 250px;
+
+  }
+
+  .dio{
+    margin-left: 100px;
+    margin-top:100px;
+  }
+
+  .dessin{
+    padding: 100px;
+  }
+
+ .dioDessin{
+  width: 30%;
+ }
+
+ .photo2{
+   width: 40%;
+ }
+
+.blockLine {
+  display: flex;
+  justify-content: start;
+}
+
+.blockline, .dioDessin{
+  display: flex;
+  align-content: center;
+}
+
+.rectangle{
+  width: 300px;
+  height: 20px;
+  background-color: white;
+  color: black;
+  text-align: right;
+
+}
+
+article{
+  margin-left: 0px;
+  margin-top: 253px;
+}
+
+
+
+
+
+/* ///////////////// Page d'acceuil /////////////////////*/
+
+
+.bienvenue{
+    display: flex;
+    padding-left: 185px;
+    padding-top: 613px;
+    text-align: center;
+}
+
+.photo2{
+  width: 100%,
+
+}
+
+#history {
+  display: flex;
+  padding: 0px 300px 0px 300px;
+
+}
+
+
+
+/* ////////:::////BLOC PRODUITS///////////////// */
+
+
+
+.container{
+  padding: 15px;
+  margin: 70px;
+  text-align: center;
+  background-color:white;
+  text-align: center;
+  font-size: 19px;
+  color: black;
+}
+
+.bouteille{
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+}
+
+h2{
+  font-size: 20px;
+}
+
+/* ///////////////// PAGE CONTACT /////////////////////*/
+
+
+
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 383px;
+  height: auto;
+  margin-left: 1050px;
+  margin-top: 348px;
+  margin-block-end: 150px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+#object{
+  width: 100%;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+
+
+
+/*/////// FOOTER ////////*/
+
+#navIcon {
+  display: none}
+
+footer{
+  height: 10px;
+  background-color:gray;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
